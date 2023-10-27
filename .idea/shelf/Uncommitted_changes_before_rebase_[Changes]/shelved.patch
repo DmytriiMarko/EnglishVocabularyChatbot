@@ -1,0 +1,32 @@
+Index: cfg.ini
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[Database]\r\nhost = localhost\r\nuser = root\r\npassword =\r\ndatabase = telegram_bot\r\n\r\n[Telegram]\r\ntoken = 863697086:AAGQ0ivSMZL15-320T74iWlOq0tEPlR3awQ\r\n\r\n[Utilities]\r\ntranslate_key = 4b5415c3642845758700084d9a5fcec7\r\nmono_token = uFsYQ1Ml4kTdQyMNBN2FluU2w2EdkXe-stjzBDQpJQco\r\nmono_jar = https://send.monobank.ua/jar/3yUhxKWee4\r\ntelegraph_api = f4a23e5d93d6466ef6979bef4800df3766f6e94737a1d984ec9f0ba3ba76\r\n
+===================================================================
+diff --git a/cfg.ini b/cfg.ini
+--- a/cfg.ini	
++++ b/cfg.ini	
+@@ -1,14 +1,14 @@
+ [Database]
+-host = localhost
+-user = root
+-password =
+-database = telegram_bot
++host = DB_HOST
++user = DB_USER
++password = DB_PASSWORD
++database = DB_NAME
+ 
+ [Telegram]
+-token = 863697086:AAGQ0ivSMZL15-320T74iWlOq0tEPlR3awQ
++token = YOUR_BOT_TOKEN
+ 
+ [Utilities]
+-translate_key = 4b5415c3642845758700084d9a5fcec7
+-mono_token = uFsYQ1Ml4kTdQyMNBN2FluU2w2EdkXe-stjzBDQpJQco
+-mono_jar = https://send.monobank.ua/jar/3yUhxKWee4
+-telegraph_api = f4a23e5d93d6466ef6979bef4800df3766f6e94737a1d984ec9f0ba3ba76
++translate_key = MICROSOFT_TRANSLATE_API_KEY
++mono_token = MONOBANK_TOKEN
++mono_jar = MONOBANK_JAR
++telegraph_api = TELEGRAPH_API
